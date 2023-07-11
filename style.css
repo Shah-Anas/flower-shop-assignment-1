@@ -6,7 +6,7 @@
 .banner-container{
     display: flex;
     justify-content:space-around;
-    height: 91vh;
+    height: 90vh;
     align-items: center;
     background-color: #fceef1;
     padding: 0px 200px 0px 200px;
