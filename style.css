@@ -12,9 +12,27 @@
     background-color: #fceef1;
     padding: 0px 200px 0px 200px;
 }
+.manus> ul> li> a{
+    list-style: none;
+    padding-left: 100px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+nav> ul{
+    list-style: none;
+    padding-top: 30px;
+    background-color: #fceef1;
+    gap: 20px;
+    display: flex; 
+    align-items: center;
+
+}
+
 
 .title {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 70px;
     font-weight: 700;
 }
@@ -29,6 +47,7 @@
 
 .banner-img {
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 
 .primary-color {
