@@ -28,14 +28,17 @@
 .banner-img{
     padding-top: 50px;
 }
+.primary-color{
+    color: #e35473;
+}
 .btn{
     padding: 20px 50px;
     background-color: #e35473;
     color: white;
     font-size: larger;
     border: none;
-    /* border-radius: 5px; */
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 5px;
+    /* border-radius: 50px 0px 0px 50px; */
 }
 
 .feature-container{
@@ -89,8 +92,9 @@
 }
 .feature-title{
     /* margin-top: 50px; */
-    padding-top: 80px;
-    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
     text-align: center;
 }
 .feature-info{
@@ -120,4 +124,29 @@
     align-items: center;
     text-align: center;
     font-size:larger ;
+}
+
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f0f1;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0px 170px 0px 170px;
+}
+
+
+.btn2{
+    padding: 20px 50px;
+    background-color: #e35473;
+    color: white;
+    align-items: center;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    align-content: center;
+    margin: 20px;
 }
