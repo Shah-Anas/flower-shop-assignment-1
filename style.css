@@ -214,3 +214,26 @@
     margin-left: 20px;
     border-radius: 5px;
 }
+.footer{
+    /* justify-content: space-around; */
+    height: 400px;
+    font: #ffffff;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+    padding: 0px 170px 0px 170px;
+}
+.w-color{
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.g-color{
+    color: gray;
+}
+#f-titel{
+    padding-top: 100px;
+    font-size: 40px;
+}
