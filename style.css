@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: #fceef1;
+    padding: 0px 200px 0px 200px;
+}
+
+.title{
+    padding-bottom: 20px;
+    font-size: 70px;
+    font-weight:700;
+}
+
+.description{
+    font-size: 16px;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight:100;
+}
+.banner-img{
+    padding-top: 50px;
+}
+.btn{
+    padding: 20px 50px;
+    background-color: #e35473;
+    color: white;
+    font-size: larger;
+    border: none;
+    /* border-radius: 5px; */
+    border-radius: 50px 0px 0px 50px;
+}
+
+.feature-container{
+    height: 94vh;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 200px 0px 200px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+.box{
+    width: 420px;
+    height: 540px;
+    margin-top: 100px;
+    border-radius: 200px 200px 0px 0px;
+    align-self: auto;
+    /* box-shadow: 5px 5px 15px gold; */
+    background-color: #fceef1;
+}
+.box2{
+    width: 420px;
+    height: 540px;
+    margin-top: 100px;
+    border-radius: 200px 200px 0px 0px;
+    align-self: auto;
+    /* box-shadow: 5px 5px 15px gold; */
+    background-color: #daeff1;
+}
+.box3{
+    width: 420px;
+    height: 540px;
+    margin-top: 100px;
+    border-radius: 200px 200px 0px 0px;
+    align-self: auto;
+    /* box-shadow: 5px 5px 15px gold; */
+    background-color:#e3ecdc;
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flower{
+    margin-top: 110px;
+    margin-left: 40px;
+    
+}
+.flower3{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.feature-title{
+    /* margin-top: 50px; */
+    padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+.feature-info{
+    font-size: 16px;
+    text-align: center;
+}
+.link{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px 0px 200px;
+}
