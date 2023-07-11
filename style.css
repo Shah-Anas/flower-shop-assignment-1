@@ -6,7 +6,7 @@
 .banner-container{
     display: flex;
     justify-content:space-around;
-    height: 92vh;
+    height: 91vh;
     align-items: center;
     background-color: #fceef1;
     padding: 0px 200px 0px 200px;
@@ -102,4 +102,14 @@
     display: flex;
     justify-content: space-around;
     margin: 0px 200px 0px 200px;
+}
+
+
+
+
+
+
+
+.feature-container2{
+    display: flex;
 }
