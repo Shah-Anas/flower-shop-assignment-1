@@ -1,64 +1,70 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif
 }
-.banner-container{
+
+.banner-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 90vh;
     align-items: center;
     background-color: #fceef1;
     padding: 0px 200px 0px 200px;
 }
 
-.title{
+.title {
     padding-bottom: 20px;
     font-size: 70px;
-    font-weight:700;
+    font-weight: 700;
 }
 
-.description{
+.description {
     font-size: 16px;
-    /* padding-top: 20px; */
+
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight:100;
+    font-weight: 100;
 }
-.banner-img{
+
+.banner-img {
     padding-top: 50px;
 }
-.primary-color{
+
+.primary-color {
     color: #e35473;
 }
-.btn{
+
+.btn {
     padding: 20px 50px;
     background-color: #e35473;
     color: white;
     font-size: larger;
     border: none;
     border-radius: 5px;
-    /* border-radius: 50px 0px 0px 50px; */
+
 }
 
-.feature-container{
+.feature-container {
     height: 88vh;
     background-color: rgb(255, 255, 255);
     padding: 0px 200px 0px 200px;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
 }
-.box{
+
+.icon {
+    padding-bottom: 30px;
+}
+
+.box {
     width: 420px;
     height: 540px;
     margin-top: 100px;
     border-radius: 200px 200px 0px 0px;
     align-self: auto;
-    /* box-shadow: 5px 5px 15px gold; */
     background-color: #fceef1;
 }
-.box2{
+
+.box2 {
     width: 420px;
     height: 540px;
     margin-top: 100px;
@@ -67,41 +73,46 @@
     /* box-shadow: 5px 5px 15px gold; */
     background-color: #daeff1;
 }
-.box3{
+
+.box3 {
     width: 420px;
     height: 540px;
     margin-top: 100px;
     border-radius: 200px 200px 0px 0px;
     align-self: auto;
-    /* box-shadow: 5px 5px 15px gold; */
-    background-color:#e3ecdc;
+    background-color: #e3ecdc;
 }
-.feature{
+
+.feature {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.flower{
+
+.flower {
     margin-top: 110px;
     margin-left: 40px;
-    
+
 }
-.flower3{
+
+.flower3 {
     margin-top: 70px;
     margin-left: 40px;
 }
-.feature-title{
-    /* margin-top: 50px; */
+
+.feature-title {
     padding-top: 60px;
     padding-bottom: 20px;
     font-size: 40px;
     text-align: center;
 }
-.feature-info{
+
+.feature-info {
     font-size: 16px;
     text-align: center;
 }
-.link{
+
+.link {
     list-style: none;
     font-size: larger;
     display: flex;
@@ -114,7 +125,7 @@
 
 
 
-.feature-container2{
+.feature-container2 {
     background-color: #f4f4f4;
     height: 300px;
     margin: 0px 212px 0px 212px;
@@ -123,10 +134,10 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    font-size:larger ;
+    font-size: larger;
 }
 
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: space-around;
     height: 500px;
@@ -134,19 +145,72 @@
     text-align: center;
     background-color: #f8f0f1;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     padding: 0px 170px 0px 170px;
 }
 
-
-.btn2{
+.btn2 {
     padding: 20px 50px;
     background-color: #e35473;
     color: white;
+
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.insta-photo {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 170px 50px 170px;
+}
+
+
+.subscription-section {
+    background-image: url(./asset/Rectangle\ 9.png);
+    height: auto;
+    margin: 100px 180px 50px 180px;
+    padding: 100px 500px;
+    text-align: center;
+    color: black;
+}
+
+.subscription-section p {
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 300px;
+
+}
+
+.email-box {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    color: #e35473;
+
+}
+
+.e-button {
+    padding: 10px 50px;
+    background-color: #e35473;
+    color: white;
+    height: 50px;
     align-items: center;
     font-size: larger;
     border: none;
     border-radius: 5px;
-    align-content: center;
-    margin: 20px;
+
+}
+
+.email {
+    padding: 10px 50px;
+    background-color: #ffffff;
+    height: 30px;
+    align-items: center;
+    font-size: larger;
+
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
 }
